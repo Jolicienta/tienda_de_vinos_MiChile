@@ -6,13 +6,10 @@
         dense
         dark
       >
-        <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-        <v-toolbar-title>Vinos Mi Chile</v-toolbar-title>
+        <v-toolbar-title><router-link to="/"> Vinos Mi Chile </router-link></v-toolbar-title>
 
         <v-spacer>
-            <span><router-link to="/"> Home </router-link></span>
-            <span><router-link to="/about"> about </router-link></span>
+            <v-btn><span><router-link to="/vinos"> Vinos </router-link></span></v-btn>
         </v-spacer>
 
         <v-btn icon>
