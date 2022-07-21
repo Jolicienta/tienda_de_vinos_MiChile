@@ -1,6 +1,6 @@
 <template>
   <v-app>
-      <div>
+    <div>
       <v-app-bar
         color="deep-purple accent-4"
         dense
@@ -53,6 +53,7 @@
     <v-main>
       <router-view/>
     </v-main>
+
   </v-app>
 </template>
 
